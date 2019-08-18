@@ -11,7 +11,7 @@ int motr;  // скорость правого мотора
 int motl;  // скорость левого мотора
 int mr;
 int ml;
-int will;
+int will; // руль
 
 void setup() {
   Serial.begin(9600);           //  setup serial
